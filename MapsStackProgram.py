@@ -2,7 +2,7 @@ from googlemaps import Client
 import pprint
 import re
 
-mapService = Client(key='AIzaSyC9tAOmf2ismSx-ukPUotyCKF_r0eeY1V0')
+mapService = Client(key='')
 
 StartDestination = input("Start?\n")
 EndDestination = input("End?\n")
