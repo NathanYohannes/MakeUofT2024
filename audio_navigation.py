@@ -12,7 +12,7 @@ def main():
     s.bind(('', port))
     s.listen(1)
     c,addr = s.accept()
-    mapService = Client(key='AIzaSyC9tAOmf2ismSx-ukPUotyCKF_r0eeY1V0')
+    mapService = Client(key='')
     threshold = 1 #distance in meters away from next checkpoint you can be
     gps_location = c.recv(2048).decode('ascii')
 
